@@ -19,7 +19,7 @@ public class Connector {
 		password = pass;
 		hostname = props.getProperty("Host_Name");
 		port = props.getProperty("Port");
-		driver = "com.mysql.jdbc.Driver";
+		driver = "com.mysql.cj.jdbc.Driver";
 		url = "jdbc:mysql://"+hostname+":"+port+"/"+database;
 	}
 	public boolean open(){
