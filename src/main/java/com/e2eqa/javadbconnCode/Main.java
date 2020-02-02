@@ -1,3 +1,5 @@
+package com.e2eqa.javadbconnCode;
+
 import java.util.Properties;
 
 import javax.swing.JFrame;
